@@ -9,7 +9,7 @@
     background: red;
     width: 100%;
     height: 100%;
-    transform: rotateX(180deg) rotateY(30deg);
+    transform: perspective(100px) rotateX(180deg) rotateY(30deg);
     color: white;
     font-family: sans-serif;
     text-align: center;
