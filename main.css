@@ -5,7 +5,7 @@
     width: 200px;
     height: 200px;
     perspective: 1000px;
-    perspective-origin: 1000px;
+    perspective-origin: center;
 }
 
 .box1 {
@@ -24,7 +24,7 @@
     background: blue;
     width: 100%;
     height: 100%;
-    transform: translateX(10rem) translateZ(-10rem);
+    transform: translateZ(-10rem);
     color: white;
     font-family: sans-serif;
     text-align: center;
